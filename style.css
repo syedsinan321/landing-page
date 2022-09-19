@@ -1,5 +1,72 @@
-body {
-    height: auto;
-    font-family: 'Times New Roman', Times, serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+.nav_container {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_bar {
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right_link {
+    display: flex;
+    gap: 10px;
+}
+
+.right_link a {
+    text-decoration: gray
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    border: 10px solid pink;
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-left h1 {
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.about-left p {
+    margin-bottom: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.about-left button {
+    font-size: 15px;
+    padding: 3px;
+    margin: 3px;
+    font-weight: 600;
+}
+
+.buttonsize {
+    background-color: blue;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
 }
 
